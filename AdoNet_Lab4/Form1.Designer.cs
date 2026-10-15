@@ -42,6 +42,7 @@
             // 
             // menuStrip1
             // 
+            this.menuStrip1.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.databaseToolStripMenuItem,
             this.helpToolStripMenuItem});
@@ -65,28 +66,28 @@
             // connectToolStripMenuItem
             // 
             this.connectToolStripMenuItem.Name = "connectToolStripMenuItem";
-            this.connectToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.connectToolStripMenuItem.Size = new System.Drawing.Size(150, 22);
             this.connectToolStripMenuItem.Text = "Connect";
             this.connectToolStripMenuItem.Click += new System.EventHandler(this.connectToolStripMenuItem_Click);
             // 
             // disconnectToolStripMenuItem
             // 
             this.disconnectToolStripMenuItem.Name = "disconnectToolStripMenuItem";
-            this.disconnectToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.disconnectToolStripMenuItem.Size = new System.Drawing.Size(150, 22);
             this.disconnectToolStripMenuItem.Text = "Disconnect";
             this.disconnectToolStripMenuItem.Click += new System.EventHandler(this.disconnectToolStripMenuItem_Click);
             // 
             // addKeywordToolStripMenuItem
             // 
             this.addKeywordToolStripMenuItem.Name = "addKeywordToolStripMenuItem";
-            this.addKeywordToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.addKeywordToolStripMenuItem.Size = new System.Drawing.Size(150, 22);
             this.addKeywordToolStripMenuItem.Text = "AddKeyword";
             this.addKeywordToolStripMenuItem.Click += new System.EventHandler(this.addKeywordToolStripMenuItem_Click);
             // 
             // viewKeywordsToolStripMenuItem
             // 
             this.viewKeywordsToolStripMenuItem.Name = "viewKeywordsToolStripMenuItem";
-            this.viewKeywordsToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.viewKeywordsToolStripMenuItem.Size = new System.Drawing.Size(150, 22);
             this.viewKeywordsToolStripMenuItem.Text = "ViewKeywords";
             this.viewKeywordsToolStripMenuItem.Click += new System.EventHandler(this.viewKeywordsToolStripMenuItem_Click);
             // 
@@ -101,7 +102,7 @@
             // aboutToolStripMenuItem
             // 
             this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
-            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(107, 22);
             this.aboutToolStripMenuItem.Text = "About";
             this.aboutToolStripMenuItem.Click += new System.EventHandler(this.aboutToolStripMenuItem_Click);
             // 

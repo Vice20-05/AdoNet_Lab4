@@ -27,8 +27,7 @@ namespace AdoNet_Lab4
                 connection.Open();
             }
             // SQL statement to ensure the Keywords table exists (no-op if already created)
-            string sql = "CREATE TABLE IF NOT EXIST Keywords(" + "Id INTEGER PRIMARY KEY AUTOINCREMENT," +
-                "id INTEGER PRIMARY KEY AUTOINCREMENT," +
+            string sql = "CREATE TABLE IF NOT EXISTS Keywords(" + "Id INTEGER PRIMARY KEY AUTOINCREMENT," +
                 "Keyword TEXT)";
             SQLiteCommand cmd=new SQLiteCommand(sql, connection);
             // Execute the table creation command
