@@ -40,10 +40,24 @@ namespace AdoNet_Lab4
             }
 
             // Insert a test keyword (replace with user input in a real app)
-            db.InsertKeyword("test");
+       
 
             // Inform the user that the insert was requested
-            MessageBox.Show("Add Keyword clicked");
+          
+            victorform form = new victorform();
+            if(form.ShowDialog()==DialogResult.OK)
+            {
+                string keyword = form.GetKeyword();
+                if(!string.IsNullOrEmpty(keyword))
+                {
+                    db.InsertKeyword(keyword);
+                    MessageBox.Show($"Keyword '{keyword}' added to the database.");
+                }
+                else
+                {
+                    MessageBox.Show("No keyword entered.");
+                }
+            }
         }
 
 
